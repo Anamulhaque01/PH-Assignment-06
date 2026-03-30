@@ -18,9 +18,9 @@ function Banner() {
 
             New: AI-Powered Tools Available
           </span>
-          <h1 className="text-4xl md:text-6xl font-bold  mb-5 text-[#282e3d]">
+          <h1 className="text-4xl md:text-6xl font-extrabold  mb-5 text-[#282e3d] leading-tight">
             Supercharge Your <br />
-            <span className="text-violet-500">Digital Workflow</span>
+            Digital Workflow
           </h1>
           <p className="text-gray-400 text-base mb-8 max-w-md leading-relaxed">
             Access premium AI tools, design assets, templates, and productivity

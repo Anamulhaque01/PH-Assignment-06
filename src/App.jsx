@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Stats from "./components/Stats";
+import Steps from "./components/Steps";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <Stats/>
+      <Steps />
     </div>
   )
 }
