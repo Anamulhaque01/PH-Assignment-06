@@ -5,10 +5,10 @@ import playImg from "../assets/Play.png";
 
 function Banner() {
   return (
-    <section className="py-50 px-4">
+    <section className="py-40 px-4">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         <div className="flex-1">
-          <span className="text-violet-400 text-sm font-semibold  mb-3  bg-[#E1E7FF] rounded-full px-3 py-2 w-67 flex gap-2 items-center justify-center">
+          <span className="text-violet-400 text-sm font-bold  mb-3  bg-[#E1E7FF] rounded-full px-3 py-2 w-67 flex gap-2 items-center justify-center">
 
             <div className="w-4 h-4 bg-[#cfbefe] rounded-full flex items-center justify-center">
               <div className="w-2.5 h-2.5 bg-[#ad80fc] rounded-full flex items-center justify-center">
