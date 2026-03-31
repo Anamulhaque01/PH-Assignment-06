@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "ResumeAI Pro",
+    "description": "Build stunning resumes in minutes with AI-powered suggestions and ATS optimization.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "SocialBoost",
+    "description": "Schedule, analyze, and grow your social media presence across all platforms.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Auto scheduling", "Analytics dashboard", "Multi-platform support"],
+    "icon": "📱"
+  },
+  {
+    "id": 3,
+    "name": "DesignKit Ultra",
+    "description": "Professional design toolkit with thousands of assets, icons, and UI components.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["10,000+ assets", "Vector icons", "UI component library"],
+    "icon": "🎨"
+  },
+  {
+    "id": 4,
+    "name": "EmailCraft",
+    "description": "Create high-converting email campaigns with drag-and-drop builder and smart automation.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Drag & drop builder", "Smart automation", "A/B testing"],
+    "icon": "✉️"
+  },
+  {
+    "id": 5,
+    "name": "SEO Wizard",
+    "description": "Dominate search rankings with keyword tracking, site audits, and competitor analysis.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Keyword tracking", "Site audit tool", "Competitor analysis"],
+    "icon": "🔍"
+  },
+  {
+    "id": 6,
+    "name": "VideoStream Studio",
+    "description": "Record, edit, and publish professional videos with built-in templates and effects.",
+    "price": 199,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["4K export", "Built-in effects", "Cloud storage 50GB"],
+    "icon": "🎬"
+  }
+]
