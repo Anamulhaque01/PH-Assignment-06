@@ -28,7 +28,7 @@ function ProductCard({ product, onAddToCart }) {
       </div>
 
       <div>
-        <h3 className="text-lg font-bold text-gray-800 mb-1" style={{ fontFamily: "Sora, sans-serif" }}>
+        <h3 className="text-lg font-bold text-gray-800 mb-1" >
           {product.name}
         </h3>
         <p className="text-gray-500 text-sm leading-relaxed">{product.description}</p>
@@ -47,7 +47,7 @@ function ProductCard({ product, onAddToCart }) {
 
       <div className="mt-auto">
         <div className="flex items-end gap-1 mb-4">
-          <span className="text-2xl font-extrabold text-gray-900" style={{ fontFamily: "Sora, sans-serif" }}>
+          <span className="text-2xl font-extrabold text-gray-900">
             ${product.price}
           </span>
           <span className="text-gray-400 text-sm mb-1">/{product.period}</span>
