@@ -70,16 +70,16 @@ function MainSection({ cart, setCart }) {
             <button
               onClick={() => setActiveTab("products")}
               className={activeTab === "products" 
-                ? "bg-violet-600 text-white px-8 py-2 rounded-full font-bold" 
-                : "text-gray-600 px-8 py-2"}
+                ? "bg-violet-600 text-white px-8 py-2 rounded-full font-bold hover:cursor-pointer " 
+                : "text-gray-600 px-8 py-2 hover:cursor-pointer "}
             >
               Products
             </button>
             <button
               onClick={() => setActiveTab("cart")}
               className={activeTab === "cart" 
-                ? "bg-violet-600 text-white px-8 py-2 rounded-full font-bold" 
-                : "text-gray-600 px-8 py-2"}
+                ? "bg-violet-600 text-white px-8 py-2 rounded-full font-bold hover:cursor-pointer " 
+                : "text-gray-600 px-8 py-2 hover:cursor-pointer "}
             >
               Cart ({cart.length})
             </button>
@@ -119,7 +119,7 @@ function MainSection({ cart, setCart }) {
 
                 <button
                   onClick={handleCheckout}
-                  className="w-full bg-violet-600 text-white py-4 rounded-full font-bold text-lg hover:bg-violet-700 transition-colors"
+                  className="w-full bg-violet-600 text-white py-4 rounded-full font-bold text-lg hover:bg-violet-700 transition-colors hover:cursor-pointer"
                 >
                   Proceed To Checkout
                 </button>

@@ -57,8 +57,8 @@ function ProductCard({ product, onAddToCart }) {
           onClick={handleBuy}
           className={`w-full py-2.5 rounded-xl font-semibold text-sm transition-all ${
             added
-              ? "bg-green-500 text-white"
-              : "bg-violet-600 hover:bg-violet-700 text-white"
+              ? "bg-green-500 text-white hover:cursor-pointer "
+              : "bg-violet-600 hover:bg-violet-700 text-white hover:cursor-pointer "
           }`}
         >
           {added ? "Added to Cart ✓" : "Buy Now"}
