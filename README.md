@@ -1,16 +1,29 @@
-# React + Vite
+## 🚀 DigiTools - Premium Digital Assets Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a sleek, minimalist e-commerce platform designed for digital creators. It allows users to browse high-quality digital products, manage a dynamic shopping cart, and experience a seamless "engineering-first" interface built with React.
 
-Currently, two official plugins are available:
+🌐 Live Demo
+https://ph-assignment-06-gilt.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🛠️ Technology Stack
+Frontend: React.js
 
-## React Compiler
+Styling: Tailwind CSS & DaisyUI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+State Management: React Hooks (useState, useEffect)
 
-## Expanding the ESLint configuration
+Notifications: React-Toastify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Data Handling: Custom JSON-based product architecture
+
+✨ Key Features
+Dynamic Cart Management: Effortlessly add products to your cart with real-time navbar counter updates and a one-click "Proceed to Checkout" to clear your selection.
+
+Toggle-Based View: A clean UI that allows users to switch seamlessly between the Product Gallery and the Cart view without page reloads.
+
+Interactive Notifications: Integrated React-Toastify to provide instant, beautiful feedback when adding, removing, or checking out items.
+
+---
+
+Developed with ❤️ by Anamul Haque
+Junior Web Developer | CSE Student at NUBTK
